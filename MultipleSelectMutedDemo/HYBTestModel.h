@@ -13,7 +13,7 @@
 // 问题id
 @property (nonatomic, copy) NSString *qid;
 @property (nonatomic, copy) NSString *questionSummary;
-@property (nonatomic, copy) NSMutableArray *optionalAnswers;
+@property (nonatomic, strong) NSMutableArray *optionalAnswers;
 
 @end
 
